@@ -6,5 +6,11 @@ lastImageSelector = function(){
   return $('img').last();
 }
 ninjaBabySelector = function(){
-  return $('p');
+  return $('#baby-ninja');
+}
+divSelector = function(){
+  return $('div.pics');
+}
+firstListItem = function(){
+  return $('ul#pic=lis');
 }
