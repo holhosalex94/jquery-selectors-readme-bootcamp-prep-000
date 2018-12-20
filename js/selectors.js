@@ -12,5 +12,5 @@ divSelector = function(){
   return $('div.pics');
 }
 firstListItem = function(){
-  return $('#pic-list');
+  return $('#pic-list:fitst-of-type li');
 }
